@@ -1,20 +1,63 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌍 CarbonTrack India
 
-# Run and deploy your AI Studio app
+![React](https://img.shields.io/badge/React-18.2+-blue.svg)
+![Vite](https://img.shields.io/badge/Vite-5.0+-purple.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-This contains everything you need to run your app locally.
+A comprehensive Carbon Footprint Calculator tailored for the Indian Context. This project leverages **React** and **TypeScript** to provide accurate and actionable insights into carbon emissions across various sectors.
+> 🔴 **[Live Demo](https://carbontrack-india.netlify.app/)**
 
-View your app in AI Studio: https://ai.studio/apps/drive/1PLtR-ptRjVgnXfQ-bbJX60Z08UDKLcCp
+## ✨ Features
 
-## Run Locally
+- **Interactive Dashboard**: Visualizes your total carbon footprint with dynamic charts and breakdown summaries.
+- **Transportation Module**: Detailed calculator for road, rail, and air travel, including specific Indian vehicle types.
+- **Electricity Module**: Precise calculations based on Indian grid emission factors.
+- **Combustion & Industrial**: Specialized modules for tracking emissions from stationary combustion and industrial processes.
+- **Reporting**: Generates breakdown of emissions by category and visualizes data using Recharts.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Visualization**: Recharts
+
+## 🚀 Getting Started
+
+### Option A: View Live (Easiest)
+Go to the [Live Demo](https://carbontrack-india.netlify.app/) to use the application immediately.
+
+### Option B: Run from Source
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/samirkumar13/CarbonTrack-India.git
+    cd CarbonTrack-India
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the App**
+    ```bash
+    npm run dev
+    ```
+    Open your browser to the local URL provided (usually `http://localhost:5173`).
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📊 Results & Screenshots
+
+Here are sample views from the system:
+
+### Dashboard Overview
+![Dashboard](https://github.com/samirkumar13/CarbonTrack-India/assets/placeholder.png)
+
+*(Note: Screenshots will be updated once available)*
+
+This project is licensed under the MIT License.
+
+---
+*Built by [Samir Kumar](https://github.com/samirkumar13)*
